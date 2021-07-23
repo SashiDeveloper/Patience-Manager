@@ -18,6 +18,9 @@
 
 ![](https://cdn.discordapp.com/attachments/856593616767549470/865341260724961280/PicsArt_03-20-02.18.22.png)
 
+![](https://cdn.discordapp.com/attachments/853608778116628520/860958111371886592/barra08.gif)
+
+
 
 
 > * **Feito com Ajuda de Minna!**
