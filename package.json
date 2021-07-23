@@ -1,0 +1,36 @@
+{
+  "name": "patience-exts",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Sem test :sunglasses:\" && exit 1",
+    "start": "node src/index.js --trace-warnings",
+    "dev": "nodemon src/index.js --trace-warnings"
+  },
+  "keywords": [],
+  "author": "SashiDeveloper",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "connect-sqlite3": "^0.9.11",
+    "discord.js": "^13.0.0-dev.d6c43a5.1625918569",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "lodash": "^4.17.21",
+    "luxon": "^1.28.0",
+    "node": "^16.4.0",
+    "npm": "^7.19.1",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "random": "^3.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  },
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  }
+}
