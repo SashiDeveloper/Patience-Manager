@@ -8,7 +8,7 @@
 
 # 🍙 | Algumas Informações
 
-**![](https://cdn.discordapp.com/attachments/853608778116628520/860958111371886592/barra08.gif)
+![](https://cdn.discordapp.com/attachments/853608778116628520/860958111371886592/barra08.gif)
 * *Feito com Discord.JS*
 * *Hospedado na Replit*
 * *Feito com ❤*
