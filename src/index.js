@@ -22,8 +22,9 @@ const ping = require('./utils/ping')
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 client.on('ready', async () => {
+  await handlers.loadCommands(client)
   try {
-    await site(client);
+    await require("./site/index")(client)
   } catch (err) {
     console.error(err);
   }
@@ -33,9 +34,6 @@ client.on('ready', async () => {
 
 // Carregando os eventos
 handlers.loadEvents(client);
-
-// Carregando os comandos
-client.on("ready", async () => {await handlers.loadCommands(client);});
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
